@@ -28,7 +28,7 @@ p, a, .text { font-size: 14px; }
 .icon { font-size: 40px; }
 .text { display: block; }
 .container-sm { max-width: 1200px; margin: 0 auto; }
-.container-big-2 { max-width: 1000px; margin: 0 auto; }
+.container-xl { max-width: 1000px; margin: 0 auto; }
 
 img { width: 100%; }
 a.btn { cursor: pointer;}
@@ -58,7 +58,7 @@ ul > li {
     border-bottom: 2px solid transparent;
 }
 
-li:not(.logo):not(.btn):hover {
+header ul > li:not(.logo):not(.btn):hover {
     border-bottom: 2px solid #000;
 }
 
@@ -83,7 +83,60 @@ li.btn > a {
 .jumbotron { background-color: #b5d0e7; margin-top: 0; padding-top: 110px;}
 .jumbotron .container-sm .flex > div.col-sm { padding-right: 50px; }
 
-main .col-sm .icon { margin: 80px 0 20px; }
+main .col-sm .icon { margin: 80px 0 20px; font-size: 35px; }
 
+main .plane span.text,
 .jumbotron a.btn { margin: 35px 0 50px; }
+
 .jumbotron .container-sm { position: relative; bottom: -80px;}
+
+.plane { padding-top: 180px;}
+.plane .container-xl div.choice.flex {padding: 70px 0 50px;}
+#year { margin-left: 40px; }
+
+main .offert.flex { gap: 50px; }
+
+div.col-1 { width: calc((100% - 100px) / 3);}
+
+div.container-xl div.top-col { padding: 10px 0; text-align: center; }
+div.container-xl div.bottom-col { padding: 40px 40px 35px; }
+div.container-xl .bottom-col h3 { margin-bottom: 25px; }
+
+.bottom-col span.period { display: inline-block; font-weight: lighter; margin-top: 15px; }
+
+ul.details { padding-top: 30px; }
+
+div.container-xl .bottom-col ul li { padding-top: 20px; }
+section .plane .container-xl .bottom-col .text { margin: 20px 0 40px; }
+
+div.container-xl .bottom-col span.text-icon {
+    line-height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.info-plane { height: 320px; }
+
+.checked li.flex > i { color: #1b5fc5; align-items: flex-start; }
+
+.bottom-col > a.btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+li.flex > span { padding-left: 7px; }
+
+.bottom-col > hr {margin-bottom: 40px; width: 20%;}
+
+.btn-link {color: #1b5fc5;}
+
+div.offert > .col-1 { border: 1px solid #d0d0d3;}
+div.offert .col-1 > .top-col { border-bottom: 1px solid #d0d0d3;}
+div.offert.flex { flex-wrap: wrap; }
+
+.offert > div.bottom-col { height: 100%; }
+.offert.flex .col-1.text:last-child { flex-grow: 2;}
+.offert .col-1:last-child .bottom-col .col-sm { text-align: end;}
+.offert .col-1:last-child .bottom-col .col-xl { padding-right: 50px; }
