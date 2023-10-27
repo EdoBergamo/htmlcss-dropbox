@@ -208,3 +208,13 @@ main section.modal { background-color: #b5d0e7; padding: 120px 0;}
     background-color: #fff !important;
     color: #000 !important;
 }
+
+/* FAQs */
+main section.faqs {padding: 160px 0;}
+
+.faqs .container-xl h2 {padding-bottom: 75px;}
+.faqs .container-xl div.flex-sb {
+    height: 100px;
+    align-items: center;
+    padding-right: 40px;
+}
