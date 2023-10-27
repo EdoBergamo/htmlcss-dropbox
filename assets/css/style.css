@@ -155,3 +155,8 @@ div.offert.flex { flex-wrap: wrap; }
 .partner .container-xl .col-sm a.btn.btn-partner:hover { background-color: #000; color: #fff; }
 
 .partner .container-xl .flex .col-sm { padding: 60px 50px 0; }
+
+.business .container-xl h2 { margin-bottom: 65px;}
+.business .container-xl .flex { flex-wrap: wrap; gap: 55px;}
+.business .flex div.item { width: calc((100% - 110px) / 3);}
+.business .flex .item h3 { margin: 20px 0 30px;}
