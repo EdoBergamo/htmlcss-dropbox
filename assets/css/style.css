@@ -27,6 +27,7 @@ p, a, .text { font-size: 14px; }
 
 .icon { font-size: 40px; }
 .text { display: block; }
+.container-md,
 .container-sm { max-width: 1200px; margin: 0 auto; }
 .container-xl { max-width: 1000px; margin: 0 auto; }
 
@@ -218,3 +219,35 @@ main section.faqs {padding: 160px 0;}
     align-items: center;
     padding-right: 40px;
 }
+
+footer { background-color: #000;}
+footer .container-md .flex div.col-foot {width: calc(( 100% - 200px) / 5); color: #fff;}
+footer .container-md .col-foot {
+    all: unset;
+    display: inline-block;
+    color: #fff;
+}
+
+footer .container-md .col-foot > a.foot-link {
+    all: unset;
+    font-weight: lighter;
+    font-size: 12px;
+    display: block;
+}
+
+footer > hr { width: 25%; }
+
+footer .container-md .col-foot > h3 { padding-bottom: 30px;}
+footer .container-md .col-foot > a.foot-link { padding-bottom: 20px;}
+footer .container-md .flex { padding: 100px 0 100px;}
+
+footer div.flex {align-items: flex-start; gap: 50px;}
+
+footer .bottom-foot {
+    align-items: center;
+    line-height: 100%;
+    color: #d0d0d3;
+    gap: 0;
+}
+
+footer .lang .flex > span { padding: 0 5px; }
