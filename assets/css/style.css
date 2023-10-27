@@ -1,0 +1,60 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Base Style */
+.btn {
+    all: unset;
+    display: inline-block;
+    font-size: 12px;
+    background-color: #1b5fc5;
+    color: #fff;
+    padding: 10px 8px;
+    line-height: 1;
+}
+
+/* Header */
+header {
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul > li {
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+}
+
+li:not(.logo):not(.btn):hover {
+    border-bottom: 2px solid #000;
+}
+
+.right-nav.flex {
+    padding: 0 20px 0 0;
+}
+
+header li a,
+header li img {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+li.btn > a {
+    color: #fff;
+}
