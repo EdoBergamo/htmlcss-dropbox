@@ -140,3 +140,18 @@ div.offert.flex { flex-wrap: wrap; }
 .offert.flex .col-1.text:last-child { flex-grow: 2;}
 .offert .col-1:last-child .bottom-col .col-sm { text-align: end;}
 .offert .col-1:last-child .bottom-col .col-xl { padding-right: 50px; }
+
+.partner .col-xl {width: 600px;}
+.partner .col-sm { flex-grow: 2;}
+.partner .col-sm > p { padding-top: 20px; }
+.partner div.container-xl { padding: 145px 0 150px;}
+.partner .container-xl .col-sm a.btn.btn-partner {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 35px;
+}
+
+.partner .container-xl .col-sm a.btn.btn-partner:hover { background-color: #000; color: #fff; }
+
+.partner .container-xl .flex .col-sm { padding: 60px 50px 0; }
